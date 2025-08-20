@@ -1,0 +1,2 @@
+fare_model.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text

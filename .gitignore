@@ -1,0 +1,7 @@
+# Ignore large files
+*.pkl
+*.csv
+
+# Ignore other unnecessary files
+.DS_Store
+*.log
