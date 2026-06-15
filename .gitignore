@@ -1,6 +1,29 @@
-# Large model/data files - do not commit
+# Environment & secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large model / data files — never commit these
 *.pkl
 *.joblib
+*.db
 *.csv
 *.h5
 *.parquet
+
+# Scratch / throwaway files
+test.py
+test.html
+delete_db.py
+view_db.py
+
+# Images / assets that aren't part of the app
+*.png
+*.webp
+*.svg
+
+# Node
+node_modules/
