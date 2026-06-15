@@ -1,0 +1,6 @@
+# Large model/data files - do not commit
+*.pkl
+*.joblib
+*.csv
+*.h5
+*.parquet
